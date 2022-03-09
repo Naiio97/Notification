@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+#btn {
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    background: lightblue;
+    font-size: 30px;
+}
+
+.toast {
+    padding: 2rem;
+    margin: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: lightblue;
+    font-size: 30px;
+}
